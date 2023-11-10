@@ -250,6 +250,7 @@ storage_config:
   aws:
     s3: s3://<access_key>:<uri-encoded-secret-access-key>@<region>
     bucketnames: <bucket1,bucket2>
+    signature_version: v4
 
 schema_config:
   configs:
